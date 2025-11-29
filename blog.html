@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Umair Trader - Latest blog posts about trading strategies, market analysis, and trading psychology">
+    <title>Blog - Umair Trader</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">Umair<span>Trader</span></a>
+                <div class="nav-links">
+                    <a href="index.html#home">Home</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#services">Services</a>
+                    <a href="index.html#performance">Performance</a>
+                    <a href="#" class="active">Blog</a>
+                    <a href="index.html#contact">Contact</a>
+                    <button class="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Header -->
+    <section class="blog-header">
+        <div class="container">
+            <h1>Trading Insights & Strategies</h1>
+            <p>Latest articles on trading strategies, market analysis, and trading psychology</p>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts section">
+        <div class="container">
+            <div class="blog-filters">
+                <div class="filters-container">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fas fa-layer-group"></i>
+                        <span>All Posts</span>
+                    </button>
+                    <button class="filter-btn" data-filter="crypto">
+                        <i class="fab fa-bitcoin"></i>
+                        <span>Crypto Trading</span>
+                    </button>
+                    <button class="filter-btn" data-filter="forex">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Forex</span>
+                    </button>
+                    <button class="filter-btn" data-filter="psychology">
+                        <i class="fas fa-brain"></i>
+                        <span>Psychology</span>
+                    </button>
+                    <button class="filter-btn" data-filter="analysis">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Technical Analysis</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="blog-grid">
+                <!-- Featured Post -->
+                <article class="blog-card featured" data-category="crypto">
+                    <div class="blog-image">
+                        <img src="images/Advanced Crypto Trading Strategies.jpg" alt="Crypto Trading Strategies">
+                        <span class="featured-tag">Featured</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Crypto Trading</span>
+                            <span class="blog-date">Nov 14, 2025</span>
+                        </div>
+                        <h2><a href="blog-post-1.html">5 Essential Crypto Trading Strategies for 2025</a></h2>
+                        <p class="blog-excerpt">Discover the most effective crypto trading strategies that are working in the current market conditions. Learn how to identify trends, set proper risk management, and maximize your profits in the volatile crypto markets.</p>
+                        <div class="blog-footer">
+                            <a href="blog-post-1.html" class="read-more">Read Full Article <i class="fas fa-arrow-right"></i></a>
+                            <span class="read-time">8 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Regular Posts -->
+                <article class="blog-card" data-category="psychology">
+                    <div class="blog-image">
+                        <img src="images/Trading Psychology.jpg" alt="Trading Psychology">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Trading Psychology</span>
+                            <span class="blog-date">Nov 10, 2025</span>
+                        </div>
+                        <h3><a href="blog-post-2.html">Mastering Your Mind: The Psychology of Trading</a></h3>
+                        <p class="blog-excerpt">Understand the psychological aspects of trading and how to maintain discipline in volatile markets. Learn techniques to control emotions and develop a winning trader's mindset.</p>
+                        <div class="blog-footer">
+                            <a href="blog-post-2.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            <span class="read-time">6 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="analysis">
+                    <div class="blog-image">
+                        <img src="images/Understanding Market Structure_ The ....jpg" alt="Technical Analysis">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Technical Analysis</span>
+                            <span class="blog-date">Nov 5, 2025</span>
+                        </div>
+                        <h3><a href="blog-post-3.html">Advanced Chart Patterns Every Trader Should Know</a></h3>
+                        <p class="blog-excerpt">Learn to identify and trade the most profitable chart patterns in today's markets. This guide covers everything from basic patterns to advanced formations used by professional traders.</p>
+                        <div class="blog-footer">
+                            <a href="blog-post-3.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            <span class="read-time">10 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Additional Blog Posts -->
+                <article class="blog-card" data-category="forex">
+                    <div class="blog-image">
+                        <img src="images/Forex Trading.jpg" alt="Forex Trading">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Forex Trading</span>
+                            <span class="blog-date">Oct 28, 2025</span>
+                        </div>
+                        <h3><a href="#">Forex Market Analysis: Key Pairs to Watch</a></h3>
+                        <p class="blog-excerpt">An in-depth analysis of the most promising forex pairs and how to trade them in the current economic climate.</p>
+                        <div class="blog-footer">
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            <span class="read-time">7 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="crypto">
+                    <div class="blog-image">
+                        <img src="images/Crypto Trading.jpg" alt="Bitcoin Analysis">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Crypto Trading</span>
+                            <span class="blog-date">Oct 20, 2025</span>
+                        </div>
+                        <h3><a href="#">Bitcoin Price Prediction: What to Expect in Q4 2025</a></h3>
+                        <p class="blog-excerpt">Analyzing the current market trends and indicators to predict Bitcoin's price movement for the rest of the year.</p>
+                        <div class="blog-footer">
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            <span class="read-time">9 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="psychology">
+                    <div class="blog-image">
+                        <img src="images/Risk Assessments_ Definitions ....jpg" alt="Risk Management">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Risk Management</span>
+                            <span class="blog-date">Oct 15, 2025</span>
+                        </div>
+                        <h3><a href="#">The Ultimate Guide to Risk Management in Trading</a></h3>
+                        <p class="blog-excerpt">Learn the essential risk management techniques that separate successful traders from the rest.</p>
+                        <div class="blog-footer">
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            <span class="read-time">8 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section bg-light">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated with Our Latest Insights</h2>
+                <p>Subscribe to our newsletter and get the latest trading strategies and market analysis directly to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <a href="mailto:uk107302@gmail.com" class="contact-link"><button type="submit" class="btn btn-primary">Subscribe</button></a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Umair Trader</h3>
+                    <p>Professional trader & mentor helping individuals achieve financial freedom through disciplined trading strategies.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#performance">Performance</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for trading insights and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2025</span> Umair Trader. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#">Terms of Service</a>
+                    <span>|</span>
+                    <a href="#">Risk Disclosure</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Blog filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const blogCards = document.querySelectorAll('.blog-card');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    btn.classList.add('active');
+                    
+                    const filter = btn.getAttribute('data-filter');
+                    
+                    blogCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'flex';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Set current year in footer
+            const currentYear = document.getElementById('currentYear');
+            if (currentYear) {
+                currentYear.textContent = new Date().getFullYear();
+            }
+        });
+    </script>
+</body>
+</html>
